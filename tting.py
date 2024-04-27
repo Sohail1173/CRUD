@@ -169,4 +169,4 @@ def delete_items(item_id):
 
 if __name__ == '__main__':
     create_table()
-    app.run(host="0.0.0.0",port=3306)
+    app.run()
